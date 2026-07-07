@@ -1,0 +1,23 @@
+package main
+	
+	import "fmt"
+	import "os"
+	import "strings"
+	
+	func main() {
+		word := os.Args[1]
+		word := strings.Split(word," ")
+		for i := 0; i < 3; i++ {
+	
+				for j := word; j < len(word); j++ {
+				
+	
+					fmt.Print(strings.Join(j, " "))
+				}
+	
+		
+	
+			fmt.Println()
+
+}
+	}
